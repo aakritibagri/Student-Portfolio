@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            <i data-lucide="sun" class="light-icon"></i>
+            <i data-lucide="moon" class="dark-icon"></i>
+        </button>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Hi, I'm <span class="highlight">Aakriti Bagri</span></h1>
+                <p class="subtitle">Java Developer | Full Stack Developer | Problem Solver</p>
+                <div class="social-links">
+                    <a href="https://github.com/aakritibagri" aria-label="GitHub">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aakriti-bagri-5a9600257/" aria-label="LinkedIn">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="mailto:aakritiravibagri@gmail.com" aria-label="Email">
+                        <i data-lucide="mail"></i>
+                    </a>
+                    <a href="https://www.instagram.com/aakriti_bagri/" aria-label="Instagram">
+                        <i data-lucide="instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i data-lucide="chevron-down"></i>
+            </div>
+        </section>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">Aakriti Bagri</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="tech.html">Tech Stack</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="changelog.html">Changelog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="https://shorturl.at/ugsqU" alt="Profile" class="profile-img">
+                <div class="about-text">
+                    <p>I am a third-year B.Tech student in Computer Science
+                        Engineering (CSE A) at JSPM's RSCOE. With a strong foundation in
+                        both front-end and back-end development, I specialize in designing
+                        and building modern web applications that prioritize functionality,
+                        efficiency, and user experience.</p>
+                    <div class="skills">
+                        <div class="skill-card">
+                            <h3>Frontend</h3>
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Backend</h3>
+                            <p>Node.js, Java, MySQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="resume-download">
+        <a href="your-resume-link.pdf" class="contact-button" download>
+            <i data-lucide="download"></i> Download Resume
+        </a>
+    </div>
+
+    <!-- Blog Section -->
+    <section class = "blog">
+      <div class="container">
+        <h1>My Blog</h1>
+        <article>
+          <h2>My First Hackathon Experience at Hack Matrix 3.0! 💻</h2>
+          <p>Published on April 1, 2025</p>
+          <p> I recently had the great opportunity to participate in HackMatrix 3.0, a 24-hour hackathon organized by the GeeksforGeeks Student Chapter at PCCOE PUNE, in cooperation with AiMSA, as part of Artimas 2025!<br><br>
+            
+            Round 1 (held online on March 1st and 2nd) included four problem statements from each track:<br><br>
+             🔹 EdTech🔹 Healthcare🔹 Miscellaneous<br><br>
+            After deciding on the Miscellaneous track, my team and I created Grow Buddy, a website that makes it simple for professionals and students to take part in hackathons and coding contests. Users may explore events, create teams, monitor progress, plan and manage events, and develop their talents in a competitive, community-driven environment with Grow Buddy.
+            The best aspect is that we have qualified for Round 2! (held offline on March 7th & 8th) As we progressed, we were given additional requirements to improve our web app's usability and feature set. We also had a presentation where we showcased our project. While it required some refinements that could have further elevated it, this experience was a huge learning opportunity!
+            <br><br>
+            Special thanks to my incredible teammates Shyamali Thasale and Prajakta Gaikwad for their effort and teamwork during the hackathon! Although we did not win, we did receive significant learning experiences, problem-solving abilities, and technological insights that will undoubtedly benefit us in future initiatives.
+            Thank you to the event organizers and coordinators for organizing such a well-planned and exciting hackathon! Looking forward to more.
+            </p>
+          <a href="#">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class = "gallery">
+      <div class="container">
+        <h1>Gallery</h1>
+        <div class="projects-grid">
+          <img src="coll.png" alt="image" width="50%"/>
+          <img src="dis.png" alt="image"width="50%"/>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Education Section-->
+    <section class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>B.Tech in Computer Science Engineering</strong><br>
+                    JSPM's Rajarshi Shahu College of Engineering, Pune<br>
+                    2022 – 2026
+                    <br>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skill-grid">
+                <div>Java</div>
+                <div>JavaScript</div>
+                <div>HTML/CSS</div>
+                <div>React.js</div>
+                <div>Node.js</div>
+                <div>MongoDB</div>
+                <div>MySQL</div>
+                <div>Python</div>
+                <div>Git & GitHub</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="SmartP1.png" alt="Project 1">
+                    <div class="project-content">
+                        <h3>Smart Agri Connect</h3>
+                        <p><i>Smart Agri Connect is an all-in-one mobile platform that empowers farmers by directly connecting
+                                them with customers and marketplaces, eliminating middlemen. Built using Java (Android),
+                                Python (AI/ML),
+                                and MongoDB, the app integrates e-commerce, social networking, and smart farming tools. Key
+                                features include
+                                customizable farmer profiles, inventory management, interactive maps for location-based selling,
+                                multilingual
+                                support, and AI-driven product recommendations. The platform promotes fair pricing, reduces waste,
+                                and
+                                enhances
+                                market access—creating a transparent and tech-driven agricultural ecosystem.
+                            </i></p>
+                        <a href="#" class="project-link">
+                            View Project
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="TechF.png" alt="Project 2">
+                    <div class="project-content">
+                        <h3>TechFusion 2025</h3>
+                        <p><i>TechFusion 2025 is a premier technology event bringing together innovators,
+                                developers, and tech enthusiasts to showcase cutting-edge advancements and
+                                foster collaboration in the tech industry. This event features hands-on workshops,
+                                hackathons, keynote speeches by industry leaders, and project exhibitions
+                                that highlight groundbreaking solutions across fields like artificial intelligence,
+                                blockchain, and IoT.</i></p>
+                        <a href="#" class="project-link">
+                            View Project
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="1.png" alt="Project 3">
+                    <div class="project-content">
+                        <h3>Grow Buddy</h3>
+                        <p><i>Grow Buddy is a dynamic web platform designed for hosting and participating in coding
+                                competitions
+                                and hackathons.
+                                Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), Grow Buddy empowers
+                                students
+                                and developers
+                                to explore, engage, and grow through tech events like DSA contests, competitive programming,
+                                and
+                                machine learning
+                                challenges. The platform features event listings, easy registration, a gamified leveling
+                                system, social
+                                sharing,
+                                and a leaderboard to encourage active participation and community recognition.</i>
+                        </p>
+                        <a href="#" class="project-link">
+                            View Project
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Certification Section-->
+    <section class="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>HackMatrix 3.0 - GFG</li>
+                <li>Google Generative AI Virtual Internship – Sep 2024</li>
+                <li>Data Structures and Algorithms – Coursera</li>
+            </ul>
+        </div>
+    </section>
+    <div class="container">
+        <h1>FAQs</h1>
+        <details>
+            <summary>What programming languages do you know?</summary>
+            <p>Java, Python, JavaScript, HTML/CSS.</p>
+        </details>
+        <details>
+            <summary>Are you open to freelance work?</summary>
+            <p>Yes, for short-term or academic-based projects.</p>
+        </details>
+    </div>...
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to new opportunities and interesting projects. Feel free to reach out!</p>
+            <a href="mailto:aakritiravibagri@gmail.com" class="contact-button">
+                <i data-lucide="mail"></i>
+                Contact Me
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
