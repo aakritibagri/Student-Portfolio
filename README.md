@@ -17,7 +17,7 @@ A dynamic web-based application to manage and showcase student profiles — incl
 - **Version Control**: Git + GitHub
 
 ## 📸 Screenshots
-<img src = "main.png" width = "30%">
-<img src = "about.png" width = "30%">
+<img src = "main.png" width = "50%">
+<img src = "about.png" width = "50%">
 
 
